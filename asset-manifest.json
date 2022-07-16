@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Kendo-Club-Website/static/css/main.e2820151.css",
-    "main.js": "/Kendo-Club-Website/static/js/main.f2ae310f.js",
+    "main.js": "/Kendo-Club-Website/static/js/main.56357895.js",
     "static/media/kendogamer.png": "/Kendo-Club-Website/static/media/kendogamer.b14247bae0a73cf4fbbc.png",
     "static/media/suzuki.png": "/Kendo-Club-Website/static/media/suzuki.d173bc6333240ffbae7d.png",
     "static/media/kendo_logo_transp.png": "/Kendo-Club-Website/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
     "static/media/oldgroup.jpg": "/Kendo-Club-Website/static/media/oldgroup.f1e665565e6a201a8107.jpg",
     "index.html": "/Kendo-Club-Website/index.html",
     "main.e2820151.css.map": "/Kendo-Club-Website/static/css/main.e2820151.css.map",
-    "main.f2ae310f.js.map": "/Kendo-Club-Website/static/js/main.f2ae310f.js.map"
+    "main.56357895.js.map": "/Kendo-Club-Website/static/js/main.56357895.js.map"
   },
   "entrypoints": [
     "static/css/main.e2820151.css",
-    "static/js/main.f2ae310f.js"
+    "static/js/main.56357895.js"
   ]
 }
