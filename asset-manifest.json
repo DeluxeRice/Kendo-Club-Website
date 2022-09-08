@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Kendo-Club-Website/static/css/main.ce0c99be.css",
-    "main.js": "/Kendo-Club-Website/static/js/main.97d8160d.js",
-    "static/media/alice.jpg": "/Kendo-Club-Website/static/media/alice.26b9d031be5911cee2cc.jpg",
-    "static/media/kendo_logo_transp.png": "/Kendo-Club-Website/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
-    "static/media/nishimaki.jpg": "/Kendo-Club-Website/static/media/nishimaki.6e6ba6885890212d62e1.jpg",
-    "static/media/oldgroup.jpg": "/Kendo-Club-Website/static/media/oldgroup.f1e665565e6a201a8107.jpg",
-    "index.html": "/Kendo-Club-Website/index.html",
-    "main.ce0c99be.css.map": "/Kendo-Club-Website/static/css/main.ce0c99be.css.map",
-    "main.97d8160d.js.map": "/Kendo-Club-Website/static/js/main.97d8160d.js.map"
+    "main.css": "/static/css/main.002d2d14.css",
+    "main.js": "/static/js/main.12774965.js",
+    "static/media/alice.jpg": "/static/media/alice.26b9d031be5911cee2cc.jpg",
+    "static/media/kendo_logo_transp.png": "/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
+    "static/media/nishimaki.jpg": "/static/media/nishimaki.6e6ba6885890212d62e1.jpg",
+    "static/media/oldgroup.jpg": "/static/media/oldgroup.f1e665565e6a201a8107.jpg",
+    "index.html": "/index.html",
+    "main.002d2d14.css.map": "/static/css/main.002d2d14.css.map",
+    "main.12774965.js.map": "/static/js/main.12774965.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce0c99be.css",
-    "static/js/main.97d8160d.js"
+    "static/css/main.002d2d14.css",
+    "static/js/main.12774965.js"
   ]
 }
