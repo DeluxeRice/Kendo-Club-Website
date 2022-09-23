@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.002d2d14.css",
-    "main.js": "/static/js/main.3660cf7b.js",
+    "main.js": "/static/js/main.b9b3f204.js",
     "static/media/alice.jpg": "/static/media/alice.26b9d031be5911cee2cc.jpg",
     "static/media/kendo_logo_transp.png": "/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
     "static/media/nishimaki.jpg": "/static/media/nishimaki.6e6ba6885890212d62e1.jpg",
     "static/media/oldgroup.jpg": "/static/media/oldgroup.f1e665565e6a201a8107.jpg",
     "index.html": "/index.html",
     "main.002d2d14.css.map": "/static/css/main.002d2d14.css.map",
-    "main.3660cf7b.js.map": "/static/js/main.3660cf7b.js.map"
+    "main.b9b3f204.js.map": "/static/js/main.b9b3f204.js.map"
   },
   "entrypoints": [
     "static/css/main.002d2d14.css",
-    "static/js/main.3660cf7b.js"
+    "static/js/main.b9b3f204.js"
   ]
 }
