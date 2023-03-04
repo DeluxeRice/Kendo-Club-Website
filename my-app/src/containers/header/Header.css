@@ -1,0 +1,63 @@
+.kendo__header-text{
+    text-align: center;
+    font-family: var(--font-header);
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.kendo__header-text-title{
+    text-shadow: 2px 2px 9px rgba(0,0,0,0.6);
+}
+
+.kendo__header-text-event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(227, 200, 155, 0.75);
+    width: fit-content;
+    max-width: 80vw;
+    margin-top: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+}
+
+.kendo__header-text-event a{
+    color: var(--color-bg);
+}
+
+.kendo__header-text-event a:hover{
+    color: rgb(104, 81, 41);
+}
+
+.section__padding-header{
+    margin-top: 6rem;
+    scroll-margin-top: 6rem;
+}
+.parallax__header{
+    /* The image used */
+    background-image: url('../../assets/alice.jpg');
+
+    /* Set a specific height */
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 770px){
+    .kendo__header-text{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .kendo__header-text-event{
+        padding: 0, 0;
+        width: unset;
+    }
+}
