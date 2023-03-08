@@ -23,7 +23,7 @@ const Events = () => {
                             <p>11am-1pm</p>
                         </div>
                     </div>
-                    <p className='kendo__events-text-location'>@ ARC Training Zone</p>
+                    <a href='https://drive.google.com/file/d/1tuAdz7URQwfIluH8JbRX8-ZFMaYcgr1w/view' className='kendo__events-text-location' target='_blank' rel='noreferrer'>@ ARC Training Zone</a>
                 </div>
             </div>
         </div>

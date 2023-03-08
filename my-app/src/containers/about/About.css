@@ -3,20 +3,17 @@
     margin:0;
     right:0;
 }
+
 .kendo__about-text{
     display: flex;
     flex-direction: column;
     text-align:center;
-    font-family:var(--font-about);
+    font-family:var(--font-generic);
     color:white;
     font-size:2.5rem;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
-.kendo__about-text-title{
-    text-shadow: 2px 2px 9px rgba(0,0,0,0.6);
-}
-
 
 .kendo__about-text-sub{
     margin-top: 3rem;
@@ -44,7 +41,6 @@
     /* The image used */
     background-image: url('../../assets/oldgroup.jpg');
     /* Set a specific height */
-    min-height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: 50% 55%;

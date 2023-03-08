@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from '../title/Title';
 import './About.css';
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
             <div className='kendo__about-content'>
                 <div className='kendo__about-text'>
                     <div className='kendo__about-text-title'>
-                        <h2>About Us</h2>
+                        <Title text='About Us'/>
                     </div>
                     <div className='kendo__about-text-sub'> 
                         <p> Kendo Club at UCI provides an environment for the Kendokas of UCI

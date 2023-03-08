@@ -1,3 +1,6 @@
+a:hover{
+    color: cornflowerblue;
+}
 .kendo__events{
     right:0;
 }
@@ -5,7 +8,7 @@
 .kendo__events-text{
     height: fit-content;
     text-align: center;
-    font-family: var(--font-events);
+    font-family: var(--font-generic);
     color: white;
     font-size: 2.5rem;
     padding-top: 8rem;
@@ -19,12 +22,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
     background: rgba(227, 200, 155, 0.75);
+    margin-right: auto;
+    margin-left: auto;
     border-radius: 20px;
     width: fit-content;
     max-width: 80vw;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 3rem;
 }
 
@@ -50,7 +54,6 @@
     background-image: url('../../assets/nishimaki.jpg');
 
     /* Set a specific height */
-    min-height:100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: top;

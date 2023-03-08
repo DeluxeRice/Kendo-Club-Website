@@ -9,7 +9,7 @@ const Menu = () => (
     <>
     <p><Link to={'/'} >Home</Link></p>
     <p><Link to={'/about'} >About</Link></p>
-    <p><Link to={'/schedule'} >Schedule</Link></p>
+    <p><Link to={'/schedule'} >News & Schedule</Link></p>
     <p><Link to={'/newsletter'} >Newsletter</Link></p>
     <p><Link to={'/contact'} >Contact</Link></p>
     </>
@@ -21,7 +21,9 @@ const Navbar = () => {
     return(
         <div className='kendo__navbar gradient__bg'>
             <div className='kendo__navbar-logo'>
+                <Link to={'/'} >
                     <img src ={logo} alt="uci logo"/>
+                </Link>       
             </div>
             <div className='kendo__navbar-links'>
                 <div className='kendo__navbar-links_container'>

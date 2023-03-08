@@ -1,0 +1,109 @@
+.section__padding-about{
+    margin-top: 0.5rem;
+    scroll-margin-top: 6.4rem;
+}
+
+.about-title{
+    background-image:url('../../assets/oldgroup.jpg');
+    background-attachment: fixed;
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.5rem;
+    scroll-margin-top: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-size: 4rem;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    color: white;
+}
+
+.about-text{
+    font-family:var(--font-generic);
+}
+
+.mission-statement{
+    flex-direction: column;
+    text-align:center;
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: white;
+    background-color:rgb(46, 123, 190);
+}
+
+.mission-statement p{
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: center;
+}
+
+.mission-statement-title{
+    padding-bottom: 1rem;
+}
+
+.officer-info{
+    font-size: 1.2rem;
+    color: black;
+    background-color: aliceblue;
+    padding-bottom: .75rem;
+    text-align: left;
+}
+
+.officer-info-header {
+    flex-direction: column;
+    text-align:center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.officer-info-header p{
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.officer-info-pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.officer-info img{
+    width:10rem;
+    height:10rem;
+    margin-top:0.75rem;
+    margin-bottom:0.25rem;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width: 1050px){
+    .kendo__about-text{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .officer-info{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .officer-info-pictures{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .officer-info img{
+        margin-top:0.25rem;
+        margin-bottom:0.24rem;
+    }
+
+
+}

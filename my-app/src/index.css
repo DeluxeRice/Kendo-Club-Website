@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root{
   --font-family:'Inter', sans-serif;
-  --font-header:'Roboto', sans-serif;
-  --font-about:'Roboto', sans-serif;
-  --font-events:'Roboto', sans-serif;
+  --font-generic:'Roboto', sans-serif;
   
   --color-bg:#0d669d;
   --color-footer:#c2a16c;
