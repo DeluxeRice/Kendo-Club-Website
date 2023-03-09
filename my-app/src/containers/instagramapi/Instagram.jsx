@@ -6,6 +6,7 @@ import './Instagram.css'
 
 function Instagram({...props}){
     const [feeds, setFeedsData] = useState([])
+    const APIKey = process.env.INSTA_API_KEY
     //use useRef to store the latest value of the prop without firing the effect
 
     useEffect(() => {
@@ -15,7 +16,7 @@ function Instagram({...props}){
         async function fetchInstagramPost () {
           try{
             axios
-                .get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=IGQVJXMktNNjJ2Wnl2RzRGdFlJTzVTY3FuTkhrRkhWaTMyR3ZANY2llbzdpNFZAVT3g0d2xpbVFrLTNkZAGJCTm1ETVVHYjI5MzI3SklPRHpNZAmllMGJOd2ZAfWVlHeF9XQjhQTk5CUnBUOTBJWC1YcDlMQQZDZD`)
+                .get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=${APIKey}`)
                 .then((resp) => {
                     setFeedsData(resp.data.data)
                 })
