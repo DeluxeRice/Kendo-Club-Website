@@ -6,7 +6,7 @@ class Gallery extends Component {
     render(){
         return(
             <div className='gallery-container'>
-                <InstaFeeds limit={15}/>
+                <InstaFeeds limit={15} className='instagram'/>
             </div>
             
         );

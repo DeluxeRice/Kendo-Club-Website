@@ -1,13 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ImageList, ImageListItem } from '@mui/material'
 import axios from 'axios'
-
 import './Instagram.css'
 
 function Instagram({...props}){
     const [feeds, setFeedsData] = useState([])
-    const APIKey = process.env.INSTA_API_KEY
-    //use useRef to store the latest value of the prop without firing the effect
+    const APIKey = process.env.REACT_APP_API_KEY
 
     useEffect(() => {
         // this is to avoid memory leaks
