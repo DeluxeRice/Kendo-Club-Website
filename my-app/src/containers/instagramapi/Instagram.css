@@ -1,0 +1,9 @@
+img {
+    transition: transform .5s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+    z-index: 16;
+}
