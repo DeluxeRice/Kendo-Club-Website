@@ -1,5 +1,6 @@
 img {
     transition: transform .5s ease;
+    border-radius: .25rem;
 }
 
 img:hover{

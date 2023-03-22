@@ -3,12 +3,14 @@
     font-family: var(--font-generic);
     color: white;
     font-size: 2.5rem;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     background-color: white;
-    margin-top: 20rem;
     margin: .5rem;
     border-radius: .25rem;
+    background-image: url('../../assets/alice.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 .kendo__header-text-title{
@@ -22,7 +24,6 @@
     background: rgba(227, 200, 155, 0.75);
     width: fit-content;
     max-width: 80vw;
-    margin-top: 3rem;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
@@ -36,22 +37,6 @@
 
 .kendo__header-text-event a:hover{
     color: rgb(104, 81, 41);
-}
-
-.section__padding-header{
-    margin-top: 6rem;
-    scroll-margin-top: 6rem;
-}
-.parallax__header{
-    /* The image used */
-    background-image: url('../../assets/alice.jpg');
-
-    /* Set a specific height */
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media screen and (max-width: 770px){

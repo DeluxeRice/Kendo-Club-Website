@@ -1,6 +1,4 @@
 .kendo__navbar{
-    position:fixed;
-    width:100vw;
     top:0;
     display:flex;
     justify-content:space-between;
@@ -79,6 +77,9 @@
     display:none;
 }
 @media screen and (max-width: 1050px){
+    .kendo__navbar{
+        position:fixed;
+    }
     .kendo__navbar-links_container{
         display:none;
     }

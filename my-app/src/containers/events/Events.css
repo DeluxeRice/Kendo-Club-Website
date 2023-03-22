@@ -3,6 +3,8 @@ a:hover{
 }
 .kendo__events{
     right:0;
+    margin: .5rem;
+    border-radius: .25rem;
 }
 
 .kendo__events-text{
