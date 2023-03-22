@@ -1,7 +1,8 @@
 .kendo__about{
     padding:0;
-    margin:0;
-    right:0;
+    margin: .5rem;
+    background-image: url('../../assets/oldgroup.jpg');
+    border-radius: .25rem;
 }
 
 .kendo__about-text{
@@ -35,17 +36,6 @@
 .section__padding-about{
     margin-top: 0.5rem;
     scroll-margin-top: 6.4rem;
-}
-
-.parallax__about{
-    /* The image used */
-    background-image: url('../../assets/oldgroup.jpg');
-    /* Set a specific height */
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: 50% 55%;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media screen and (max-width: 770px){

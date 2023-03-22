@@ -3,8 +3,12 @@
     font-family: var(--font-generic);
     color: white;
     font-size: 2.5rem;
-    padding-top: 8rem;
-    padding-bottom: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: white;
+    margin-top: 20rem;
+    margin: .5rem;
+    border-radius: .25rem;
 }
 
 .kendo__header-text-title{

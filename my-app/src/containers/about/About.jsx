@@ -4,7 +4,7 @@ import './About.css';
 
 const About = () => {
     return(
-        <div className='kendo__about section__padding-about parallax__about' id='about'>
+        <div className='kendo__about section__padding-about' id='about'>
             <div className='kendo__about-content'>
                 <div className='kendo__about-text'>
                     <div className='kendo__about-text-title'>
