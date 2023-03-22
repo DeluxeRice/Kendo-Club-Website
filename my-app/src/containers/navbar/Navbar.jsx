@@ -9,6 +9,7 @@ const Menu = () => (
     <>
     <p><Link to={'/'} >Home</Link></p>
     <p><Link to={'/about'} >About</Link></p>
+    <p><Link to={'/sensei'} >Our Sensei</Link></p>
     <p><Link to={'/schedule'} >News & Schedule</Link></p>
     <p><Link to={'/newsletter'} >Newsletter</Link></p>
     <p><Link to={'/contact'} >Contact</Link></p>
@@ -19,7 +20,7 @@ const Menu = () => (
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return(
-        <div className='kendo__navbar gradient__bg'>
+        <div className='kendo__navbar'>
             <div className='kendo__navbar-logo'>
                 <Link to={'/'} >
                     <img src ={logo} alt="uci logo"/>
