@@ -12,11 +12,11 @@ const Events = () => {
                     <div className='kendo__events-text-sub'>
                         <div className='kendo__events-text-time'>
                             <p>Tuesdays</p>
-                            <p>8:30pm-10pm</p>
+                            <p>7:00pm-8:30pm</p>
                         </div>
                         <div className='kendo__events-text-time'>
                             <p>Fridays</p>
-                            <p>9pm-10:30pm</p>
+                            <p>7:00-8:50pm</p>
                         </div>
                         <div className='kendo__events-text-time'>
                             <p>Saturday</p>

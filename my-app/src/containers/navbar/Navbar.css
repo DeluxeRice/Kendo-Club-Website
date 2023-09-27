@@ -78,6 +78,7 @@
 .kendo__navbar-menu_container-links-sign{
     display:none;
 }
+
 @media screen and (max-width: 1050px){
     .kendo__navbar{
         position:fixed;
