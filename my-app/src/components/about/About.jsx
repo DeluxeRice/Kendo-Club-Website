@@ -4,10 +4,11 @@ import nakayama from '../../assets/nakayama.jpg';
 import quach from '../../assets/quach.jpg';
 import bravo from '../../assets/bravo.jpg';
 import lam from '../../assets/lam.jpg';
-import lim from '../../assets/lim.jpg'
+import lim from '../../assets/lim.jpg';
 import bryce from '../../assets/bryce.jpg';
-import kiuchi from '../../assets/kiuchi.jpg'
-import fung from '../../assets/fung.jpg'
+import kiuchi from '../../assets/kiuchi.jpg';
+import fung from '../../assets/fung.jpg';
+import nathan from '../../assets/nathan.jpg'
 import './About.css'
 
 class AboutPage extends Component {
@@ -21,7 +22,7 @@ class AboutPage extends Component {
 
           <div className='mission-statement about-text'>
             <h3 className ='mission-statement-title'>Our Purpose</h3>
-            <p className = 'mission-statement-sub'>Kendo Club at UCI provides an environment for the Kendokas of UCI to train and build a community with their fellow Kenshi. We believe that each student has potential, and encourage Kendokas of all levels to come and train at UCI.</p>
+            <p className = 'mission-statement-sub'>Kendo Club at UCI provides an environment for Kendokas (practitioners of Kendo) of UCI to train and build a community with their fellow Kenshi. We welcome people of all skill levels and encourage all to come and train with us.</p>
           </div>
 
           <div className='officer-info about-text'>
