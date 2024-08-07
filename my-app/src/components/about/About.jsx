@@ -22,7 +22,7 @@ class AboutPage extends Component {
 
           <div className='mission-statement about-text'>
             <h3 className ='mission-statement-title'>Our Purpose</h3>
-            <p className = 'mission-statement-sub'>Kendo Club at UCI provides an environment for Kendokas (practitioners of Kendo) of UCI to train and build a community with their fellow Kenshi. We welcome people of all skill levels and encourage all to come and train with us.</p>
+            <p className = 'mission-statement-sub'>The Kendo Club at UCI provides an environment for Kendokas (practitioners of Kendo) to train and build a community with their fellow Kenshi. We welcome people of all skill levels and encourage all to come and train with us.</p>
           </div>
 
           <div className='officer-info about-text'>
@@ -50,11 +50,11 @@ class AboutPage extends Component {
             <div className='officer-info-description about-text'>
             </div>
             <div className='officer-info-pictures'>
-              <Officer image = {nakayama} name = 'Noah Nakayama' role='President' rank='Rank'/>
-              <Officer image = {quach} name = 'Diana Quach' role='Vice President' rank='Rank'/>
-              <Officer image = {bravo} name = 'Alessandra Bravo' role='Secretary' rank='Rank'/>
-              <Officer image = {lam} name = 'Patrick Lam' role='Treasurer' rank='Rank'/>
-              <Officer image = {lim} name = 'Charlie Lim' role='Historian' rank='Rank'/>
+              <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank'/>
+              <Officer image = {quach} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
+              <Officer image = {bravo} name = 'Amy Haley' role='Secretary' rank='Rank'/>
+              <Officer image = {nathan} name = 'Nathan Fajarito' role='Treasurer' rank='Rank'/>
+              <Officer image = {lim} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
               <Officer image = {bryce} name = 'Bryce Nishimaki' role='Public Events Coordinator' rank='Rank'/>
             </div>
           </div>

@@ -11,10 +11,9 @@ const About = () => {
                         <Title text='About Us'/>
                     </div>
                     <div className='kendo__about-text-sub'> 
-                        <p> Kendo Club at UCI provides an environment for the Kendokas of UCI
-                            to train and build a community with their fellow Kenshi. We believe
-                            that each student has potential, and encourage Kendokas of all levels to
-                            come and train at UCI.
+                        <p> The Kendo Club at UCI provides an environment for Kendokas (practitioners of Kendo)
+                            to train and build a community with their fellow Kenshi.
+                            We welcome people of all skill levels and encourage all to come and train with us.
                         </p>
                     </div>
                 </div>
