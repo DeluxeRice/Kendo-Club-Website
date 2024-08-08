@@ -10,7 +10,8 @@ import fung from '../../assets/fung.jpg'
 import bravo from '../../assets/alice.jpg';
 import lim from '../../assets/lim.jpg';
 import bryce from '../../assets/bryce.jpg';
-import nathan from '../../assets/nathan.jpg'
+import naethan from '../../assets/naethan.jpg'
+import jaime from '../../assets/jaime.jpg'
 import './About.css'
 
 class AboutPage extends Component {
@@ -53,9 +54,9 @@ class AboutPage extends Component {
             </div>
             <div className='officer-info-pictures'>
               <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank'/>
-              <Officer image = {bravo} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
+              <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
               <Officer image = {bravo} name = 'Amy Haley' role='Secretary' rank='Rank'/>
-              <Officer image = {nathan} name = 'Nathan Fajarito' role='Treasurer' rank='Rank'/>
+              <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Rank'/>
               <Officer image = {lim} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
               <Officer image = {bryce} name = 'Bryce Nishimaki' role='Public Events Coordinator' rank='Rank'/>
             </div>
