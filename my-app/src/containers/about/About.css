@@ -1,0 +1,48 @@
+.kendo__about{
+    padding:0;
+    margin: .5rem;
+    background-image: url('../../assets/oldgroup.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: .25rem;
+}
+
+.kendo__about-text{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    font-family:var(--font-generic);
+    color:white;
+    font-size:2.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.kendo__about-text-sub{
+    margin-top: 3rem;
+    max-width: 80vw;
+    text-align:center;
+    background: rgba(227, 200, 155, 0.75);
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+}
+
+.kendo__about-text-link{
+    font-size:2rem;
+    padding-top: 1rem;
+}
+
+.section__padding-about{
+    margin-top: 0.5rem;
+    scroll-margin-top: 6.4rem;
+}
+
+@media screen and (max-width: 770px){
+    .kendo__about-text{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
