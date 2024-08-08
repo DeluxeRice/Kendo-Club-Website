@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.30c6e2ee.css",
-    "main.js": "/static/js/main.e16e8da7.js",
+    "main.css": "/static/css/main.b8ca6642.css",
+    "main.js": "/static/js/main.ab8d2789.js",
     "static/media/joint.jpg": "/static/media/joint.66c671ad64d32c070760.jpg",
     "static/media/practice.jpg": "/static/media/practice.423ec284b1e284218bea.jpg",
+    "static/media/naethan.jpg": "/static/media/naethan.256987c979a6253734a1.jpg",
     "static/media/kendo_logo_transp.png": "/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
     "static/media/alice.jpg": "/static/media/alice.ec58de596a071dc8c895.jpg",
     "static/media/oldgroup.jpg": "/static/media/oldgroup.f1e665565e6a201a8107.jpg",
-    "static/media/camille.jpg": "/static/media/camille.5ea943b5cbce490d03a1.jpg",
     "static/media/zhu.jpg": "/static/media/zhu.48eb3cde778c2b7766e9.jpg",
     "static/media/fung.jpg": "/static/media/fung.24b7ba0a98118516b27d.jpg",
     "static/media/mcneil.jpg": "/static/media/mcneil.d87431ebf29991135675.jpg",
-    "static/media/jason.jpg": "/static/media/jason.0df053f4fd9e9a40e226.jpg",
+    "static/media/jaime.jpg": "/static/media/jaime.86a383536a90fdce3afc.jpg",
     "static/media/bryce.jpg": "/static/media/bryce.773a62b05886a36b7b5b.jpg",
     "index.html": "/index.html",
-    "main.30c6e2ee.css.map": "/static/css/main.30c6e2ee.css.map",
-    "main.e16e8da7.js.map": "/static/js/main.e16e8da7.js.map"
+    "main.b8ca6642.css.map": "/static/css/main.b8ca6642.css.map",
+    "main.ab8d2789.js.map": "/static/js/main.ab8d2789.js.map"
   },
   "entrypoints": [
-    "static/css/main.30c6e2ee.css",
-    "static/js/main.e16e8da7.js"
+    "static/css/main.b8ca6642.css",
+    "static/js/main.ab8d2789.js"
   ]
 }
