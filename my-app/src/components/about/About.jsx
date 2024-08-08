@@ -9,11 +9,11 @@ import mcneil from '../../assets/mcneil.jpg'
 import fung from '../../assets/fung.jpg'
 import bravo from '../../assets/alice.jpg';
 import lam from '../../assets/lam.jpg';
+import lim from '../../assets/lim.jpg';
 import bryce from '../../assets/bryce.jpg';
-import camille from '../../assets/camille.jpg';
-import azam from '../../assets/azam.jpg';
-import jason from '../../assets/jason.jpg';
-
+import kiuchi from '../../assets/kiuchi.jpg';
+import fung from '../../assets/fung.jpg';
+import nathan from '../../assets/nathan.jpg'
 import './About.css'
 
 class AboutPage extends Component {
@@ -27,7 +27,7 @@ class AboutPage extends Component {
 
           <div className='mission-statement about-text'>
             <h3 className ='mission-statement-title'>Our Purpose</h3>
-            <p className = 'mission-statement-sub'>Kendo Club at UCI provides an environment for the Kendokas of UCI to train and build a community with their fellow Kenshi. We believe that each student has potential, and encourage Kendokas of all levels to come and train at UCI.</p>
+            <p className = 'mission-statement-sub'>The Kendo Club at UCI provides an environment for Kendokas (practitioners of Kendo) to train and build a community with their fellow Kenshi. We welcome people of all skill levels and encourage all to come and train with us.</p>
           </div>
 
           <div className='sensei-info sensei-about-text'>
@@ -55,12 +55,12 @@ class AboutPage extends Component {
             <div className='officer-info-description about-text'>
             </div>
             <div className='officer-info-pictures'>
-              <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='5 Kyu'/>
-              <Officer image = {lam} name = 'Patrick Lam' role='Vice President' rank='6 Kyu'/>
-              <Officer image = {camille} name = 'Camille Handa' role='Secretary' rank='2 Kyu'/>
-              <Officer image = {azam} name = 'Azam Khan' role='Treasurer' rank='0 Kyu'/>
-              <Officer image = {jason} name = 'Jason Zhao' role='Historian' rank='0 Kyu'/>
-              <Officer image = {bryce} name = 'Bryce Nishimaki' role='Public Events Coordinator' rank='6 Kyu'/>
+              <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank'/>
+              <Officer image = {quach} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
+              <Officer image = {bravo} name = 'Amy Haley' role='Secretary' rank='Rank'/>
+              <Officer image = {nathan} name = 'Nathan Fajarito' role='Treasurer' rank='Rank'/>
+              <Officer image = {lim} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
+              <Officer image = {bryce} name = 'Bryce Nishimaki' role='Public Events Coordinator' rank='Rank'/>
             </div>
             <p className='officer-info-post-text'>Feel free to say hi if you see them at practice!</p>
           </div>
