@@ -8,11 +8,8 @@ import gallinger from '../../assets/gallinger.jpg'
 import mcneil from '../../assets/mcneil.jpg'
 import fung from '../../assets/fung.jpg'
 import bravo from '../../assets/alice.jpg';
-import lam from '../../assets/lam.jpg';
 import lim from '../../assets/lim.jpg';
 import bryce from '../../assets/bryce.jpg';
-import kiuchi from '../../assets/kiuchi.jpg';
-import fung from '../../assets/fung.jpg';
 import nathan from '../../assets/nathan.jpg'
 import './About.css'
 
@@ -56,7 +53,7 @@ class AboutPage extends Component {
             </div>
             <div className='officer-info-pictures'>
               <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank'/>
-              <Officer image = {quach} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
+              <Officer image = {bravo} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
               <Officer image = {bravo} name = 'Amy Haley' role='Secretary' rank='Rank'/>
               <Officer image = {nathan} name = 'Nathan Fajarito' role='Treasurer' rank='Rank'/>
               <Officer image = {lim} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
