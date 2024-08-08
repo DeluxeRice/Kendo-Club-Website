@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f5030c29.css",
+    "main.js": "/static/js/main.d5b10673.js",
+    "static/media/joint.jpg": "/static/media/joint.66c671ad64d32c070760.jpg",
+    "static/media/practice.jpg": "/static/media/practice.423ec284b1e284218bea.jpg",
+    "static/media/nathan.jpg": "/static/media/nathan.256987c979a6253734a1.jpg",
+    "static/media/kendo_logo_transp.png": "/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
+    "static/media/alice.jpg": "/static/media/alice.ec58de596a071dc8c895.jpg",
+    "static/media/oldgroup.jpg": "/static/media/oldgroup.f1e665565e6a201a8107.jpg",
+    "static/media/zhu.jpg": "/static/media/zhu.48eb3cde778c2b7766e9.jpg",
+    "static/media/fung.jpg": "/static/media/fung.24b7ba0a98118516b27d.jpg",
+    "static/media/mcneil.jpg": "/static/media/mcneil.d87431ebf29991135675.jpg",
+    "static/media/bryce.jpg": "/static/media/bryce.773a62b05886a36b7b5b.jpg",
+    "index.html": "/index.html",
+    "main.f5030c29.css.map": "/static/css/main.f5030c29.css.map",
+    "main.d5b10673.js.map": "/static/js/main.d5b10673.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5030c29.css",
+    "static/js/main.d5b10673.js"
+  ]
+}
