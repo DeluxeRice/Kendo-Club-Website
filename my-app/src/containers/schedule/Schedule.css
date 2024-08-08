@@ -1,13 +1,7 @@
 a:hover{
     color: cornflowerblue;
 }
-.kendo__events{
-    right:0;
-    margin: .5rem;
-    border-radius: .25rem;
-}
-
-.kendo__events-text{
+.kendo__schedule-text{
     height: fit-content;
     text-align: center;
     font-family: var(--font-generic);
@@ -17,10 +11,10 @@ a:hover{
     padding-bottom: 8rem;
 }
 
-.kendo__events-text-title{
+.kendo__schedule-text-title{
     text-shadow: 2px 2px 9px rgba(0,0,0,0.6);
 }
-.kendo__events-text-sub{
+.kendo__schedule-text-sub{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,46 +28,46 @@ a:hover{
     margin-top: 3rem;
 }
 
-.kendo__events-text-time{
+.kendo__schedule-text-time{
     display: flex;
     flex-direction: column;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
-.kendo__events-text-location{
+.kendo__schedule-text-location{
     font-size: 2rem;
     margin-top: 4rem;
     margin-bottom: 0rem;
 }
-.section__padding-events{
-    margin-top: 0.5rem;
+.section__padding-schedule{
     scroll-margin-top: 6.4rem;
 }
 
-.parallax__events{
+.parallax__schedule{
     /* The image used */
-    background-image: url('../../assets/nishimaki.jpg');
-
+    background-image: url('../../assets/practice.jpg');
+    
     /* Set a specific height */
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: beige;
 }
 
 @media screen and (max-width: 770px){
-    .kendo__events-text{
-        padding-top: 5rem;
+    .kendo__schedule-text{
+        margin-top: 5rem;
         padding-bottom: 5rem;
     }
-    .kendo__events-text-sub{
+    .kendo__schedule-text-sub{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    .kendo__events-text-time{
+    .kendo__schedule-text-time{
         display: flex;
         flex-direction: column;
         margin: 3rem 2rem;

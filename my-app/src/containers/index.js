@@ -1,5 +1,5 @@
 export {default as About} from './about/About';
-export {default as Events} from './events/Events';
+export {default as Schedule} from './schedule/Schedule';
 export {default as Footer} from './footer/Footer';
 export {default as Header} from './header/Header';
 export {default as Email} from './email/Email.jsx';

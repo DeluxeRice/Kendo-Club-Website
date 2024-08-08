@@ -9,9 +9,7 @@ const Menu = () => (
     <>
     <p><Link to={'/'} >Home</Link></p>
     <p><Link to={'/about'} >About</Link></p>
-    <p><Link to={'/sensei'} >Our Sensei</Link></p>
-    <p><Link to={'/schedule'} >News & Schedule</Link></p>
-    <p><Link to={'/newsletter'} >Newsletter</Link></p>
+    <p><Link to={'/calendar'} >Calendar</Link></p>
     <p><Link to={'/contact'} >Contact</Link></p>
     </>
 

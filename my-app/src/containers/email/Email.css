@@ -11,8 +11,6 @@
     padding-top: 3em;
     padding-bottom: 3rem;
     background: #f6f6f6;
-    margin: .5rem;
-    border-radius: .25rem;
 }
 
 .kendo__email-container-pretext{
@@ -23,6 +21,18 @@
     justify-content: center;
     margin-bottom: 2rem;
     font-family: var(--font-family);	
+}
+
+.kendo__email-container-endtext{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    font-family: var(--font-family);	
+    text-align: center;
 }
 
 .kendo__email{
@@ -99,7 +109,7 @@ input{
     margin: auto;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1050px){
     .kendo__email{
         width: 80%;
 

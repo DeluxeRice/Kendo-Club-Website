@@ -1,0 +1,89 @@
+.sensei-wrapper{
+    background-color: aliceblue;
+}
+.sensei-about-text{
+    font-family:var(--font-generic);
+}
+
+.sensei-info{
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: black;
+    background-color: aliceblue;
+    padding-bottom: .75rem;
+    text-align: left;
+    height: 100;
+    justify-content: center;
+}
+
+.sensei-info-header {
+    flex-direction: column;
+    text-align:center;
+    font-size: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.sensei-info-header p{
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.sensei-info-pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.sensei-info img{
+    width:10rem;
+    height:10rem;
+    margin-top:0.75rem;
+    margin-bottom:0.25rem;
+    border-radius: .25rem;
+}
+
+@media screen and (max-width: 1050px){
+    .sensei-about-text{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .sensei-info{
+        text-align: center;
+        font-size: 2rem;
+        padding-top: 5rem;
+    }
+
+    .sensei-info-pictures{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sensei-info img{
+        margin-top:0.25rem;
+        margin-bottom:0.24rem;
+    }
+
+    .mission-statement p{
+        font-size: 1.75rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .sensei-info-header p{
+        font-size: 1.75rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .sensei-info img{
+
+        margin-top:0.25rem;
+        margin-bottom:0.75rem;
+    }
+}

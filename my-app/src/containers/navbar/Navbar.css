@@ -2,7 +2,7 @@
     top:0;
     width: 100%;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
     z-index:11;
     background-color:  rgba(0, 127, 208, 1);
@@ -82,6 +82,7 @@
 @media screen and (max-width: 1050px){
     .kendo__navbar{
         position:fixed;
+        justify-content:space-between;
     }
     .kendo__navbar-links_container{
         display:none;

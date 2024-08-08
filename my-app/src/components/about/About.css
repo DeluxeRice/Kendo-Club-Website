@@ -1,18 +1,21 @@
-
+.about{
+    display: flex;
+    flex-direction: column;
+}
 .about-title{
-    background-image:url('../../assets/oldgroup.jpg');
+    background-image:url('../../assets/joint.jpg');
     background-attachment: fixed;
-    background-position: 50% 55%;
+    background-position: 50% 70%;
     background-repeat: no-repeat;
     background-size: cover;
     scroll-margin-top: 6.4rem;
     display: flex;
     flex-direction: column;
     text-align:center;
+    justify-content: space-around;
     font-size: 4rem;
-    padding-top: 15rem;
-    padding-bottom: 10rem;
     color: white;
+    min-height: 30rem;
 }
 
 .about-text{
@@ -68,7 +71,9 @@
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+    text-align: center;
 }
+
 
 .officer-info img{
     width:10rem;
@@ -78,17 +83,22 @@
     border-radius: .25rem;
 }
 
+.officer-info-post-text{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 1050px){
-    .kendo__about-text{
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+    .about-text{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .officer-info{
         text-align: center;
         font-size: 2rem;
     }
-
     .officer-info-pictures{
         flex-direction: column;
         justify-content: center;
@@ -100,5 +110,20 @@
         margin-bottom:0.24rem;
     }
 
+    .mission-statement p{
+        font-size: 1.75rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 
+    .officer-info-header p{
+        font-size: 1.75rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .officer-info img{
+        margin-top:0.25rem;
+        margin-bottom:0.75rem;
+    }
 }

@@ -5,8 +5,8 @@
     font-size: 2.5rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background-color: white;
-    background-image: url('../../assets/alice.jpg');
+    background-color: var(--color-bg);
+    /*background-image: url('../../assets/alice.jpg');*/
     background-position: center;
     background-size: cover;
 }

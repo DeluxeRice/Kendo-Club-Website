@@ -1,0 +1,34 @@
+.contact-page{
+    background-color: #f6f6f6;
+}
+.contact-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    width: auto;
+    padding-top: 3em;
+    padding-bottom: 3rem;
+    background: #f6f6f6;
+}
+
+.contact-main-button{
+    color: #fff;
+    font-size:  50px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1050px){
+    .contact-main-button{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+    }
+    .contactEmail{
+        background-color: #f6f6f6;
+        padding-top: 6rem;
+    }
+}

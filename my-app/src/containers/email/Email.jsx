@@ -49,6 +49,7 @@ const Email = () => {
 				required/>
 			<button type='submit' value="Subscribe"  className='kendo__email-submit'>Submit</button>
 		</form>
+		<h1 className='kendo__email-container-endtext'>Or contact us via one of the methods below!</h1>
 	</div>
 	)
 }	

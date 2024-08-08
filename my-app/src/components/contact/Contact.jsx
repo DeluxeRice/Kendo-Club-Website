@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
-import { Navbar, Footer } from '../../containers';
+import React from 'react';
+import { Navbar, Footer, Email } from '../../containers';
+import './Contact.css'
 
-class ContactPage extends Component {
-  render() {
-    return (
-        <div>
-          <Navbar/>
-          <Footer/>
-        </div>
-    );
-  }
-}
+const ContactPage = () => {
+  return (
+    <div className="contact-page wrapper">
+      <Navbar/>
+      <div className='contactEmail'>
+      </div>
+      <Email/>
+      <Footer/>
+    </div>
+  );
+};
 
 export default ContactPage;

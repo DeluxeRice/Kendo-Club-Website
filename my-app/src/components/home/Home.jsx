@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import {About, Email, Events, Footer, Header, Navbar} from '../../containers';
-import Gallery from '../../containers/gallery/Gallery';
+import { Email, Schedule, Footer, Navbar } from '../../containers';
+import './Home.css'
 
 class HomePage extends Component {
   render() {
     return (
-        <div>
+        <div className='wrapper'>
           <Navbar/>
-          <Header/>
-          <About/>
-          <Events/>
-          <Gallery/>
+          <Schedule/>
           <Email/>
           <Footer/>
         </div>
