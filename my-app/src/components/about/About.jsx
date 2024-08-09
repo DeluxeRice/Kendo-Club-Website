@@ -25,8 +25,12 @@ class AboutPage extends Component {
           </div>
 
           <div className='mission-statement about-text'>
-            <h3 className ='mission-statement-title'>Our Purpose</h3>
-            <p className = 'mission-statement-sub'>The Kendo Club at UCI provides an environment for Kendokas (practitioners of Kendo) to train and build a community with their fellow Kenshi. We welcome people of all skill levels and encourage all to come and train with us.</p>
+            <h3 className ='mission-statement-title'>What is Kendo?</h3>
+            <p className = 'mission-statement-sub'>Kendo is a Japanese fencing-like martial art which uses 
+              bamboo swords (shinai) and derives from the fighting style of samurai. The Kendo Club at UCI 
+              provides an environment for Kendokas (practitioners of Kendo) to train and build a community 
+              with their fellow Kenshi. We welcome people of all skill levels and encourage all to come and 
+              train with us.</p>
           </div>
 
           <div className='sensei-info sensei-about-text'>
@@ -54,12 +58,12 @@ class AboutPage extends Component {
             <div className='officer-info-description about-text'>
             </div>
             <div className='officer-info-pictures'>
-              <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank'/>
-              <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Rank'/>
-              <Officer image = {amy} name = 'Amy Haley' role='Secretary' rank='Rank'/>
-              <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Rank'/>
+              <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank: 5 kyu'/>
+              <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Rank: 0 kyu'/>
+              <Officer image = {amy} name = 'Amy Haley' role='Secretary' rank='Rank: 0 kyu'/>
+              <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Rank: 9999 Dan'/>
               <Officer image = {lim} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
-              <Officer image = {selina} name = 'Selina Hsieh' role='Public Events Coordinator' rank='Rank'/>
+              <Officer image = {selina} name = 'Selina Hsieh' role='Public Events Coordinator' rank='Rank: infinite'/>
             </div>
             <p className='officer-info-post-text'>Feel free to say hi if you see them at practice!</p>
           </div>
