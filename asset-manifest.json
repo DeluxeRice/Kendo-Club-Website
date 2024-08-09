@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.b8ca6642.css",
-    "main.js": "/static/js/main.ab8d2789.js",
+    "main.js": "/static/js/main.77b6a881.js",
+    "static/media/naethan.jpg": "/static/media/naethan.e21c0b14dd5d0761e772.jpg",
     "static/media/joint.jpg": "/static/media/joint.66c671ad64d32c070760.jpg",
     "static/media/practice.jpg": "/static/media/practice.423ec284b1e284218bea.jpg",
-    "static/media/naethan.jpg": "/static/media/naethan.256987c979a6253734a1.jpg",
     "static/media/kendo_logo_transp.png": "/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
     "static/media/alice.jpg": "/static/media/alice.ec58de596a071dc8c895.jpg",
     "static/media/oldgroup.jpg": "/static/media/oldgroup.f1e665565e6a201a8107.jpg",
@@ -15,10 +15,10 @@
     "static/media/bryce.jpg": "/static/media/bryce.773a62b05886a36b7b5b.jpg",
     "index.html": "/index.html",
     "main.b8ca6642.css.map": "/static/css/main.b8ca6642.css.map",
-    "main.ab8d2789.js.map": "/static/js/main.ab8d2789.js.map"
+    "main.77b6a881.js.map": "/static/js/main.77b6a881.js.map"
   },
   "entrypoints": [
     "static/css/main.b8ca6642.css",
-    "static/js/main.ab8d2789.js"
+    "static/js/main.77b6a881.js"
   ]
 }
