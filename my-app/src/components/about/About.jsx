@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import { Navbar, Footer, Officer, Title} from '../../containers';
 
-import shikai from '../../assets/shikai.jpg'
-import shikai2 from '../../assets/shikai2.jpg'
-import zhu from '../../assets/zhu.jpg'
 import gallinger from '../../assets/gallinger.jpg'
 import mcneil from '../../assets/mcneil.jpg'
 import fung from '../../assets/fung.jpg'
 import bravo from '../../assets/alice.jpg';
-import lim from '../../assets/lim.jpg';
 import naethan from '../../assets/naethan.jpg'
 import jaime from '../../assets/jaime.jpg'
 import amy from '../../assets/amy.jpg'
 import selina from '../../assets/selina.jpg'
+import mizobe from '../../assets/mizobe.jpg'
+import aljae from '../../assets/aljae.jpg'
 import './About.css'
 
 class AboutPage extends Component {
@@ -37,34 +35,30 @@ class AboutPage extends Component {
 
           <div className='sensei-info sensei-about-text'>
             <div className='sensei-info-header sensei-about-text'>
-              <h3>Meet the Sensei</h3>
-              <p className='sensei-info-header-sub'>The wonderful sensei that make UCI Kendo unique.</p>
+              <h3>Coaches</h3>
             </div>
             <div className='sensei-info-description'>
             </div>
             <div className='sensei-info-pictures'>
-              <Officer image = {shikai} name = 'Masashi Shikai' role='Head Sensei' rank='7 Dan'/>
-              <Officer image = {shikai2} name = 'Yuriko Shikai' role='Instructor' rank='6 Dan'/>
-              <Officer image = {zhu} name = 'Tonie Zhu' role='Instructor' rank='3 Dan'/>
-              <Officer image = {gallinger} name = 'Nathan Gallinger' role='Coach' rank='5 Dan'/>
-              <Officer image = {mcneil} name = 'Brandon Mcneil' role='Coach' rank='2 Dan'/>
-              <Officer image = {fung} name = 'Amos Fung' role='Coach' rank='1 Dan'/>
+              <Officer image = {gallinger} name = 'Nathan Gallinger' rank='5 Dan'/>
+              <Officer image = {mcneil} name = 'Brandon Mcneil' rank='2 Dan'/>
+              <Officer image = {fung} name = 'Amos Fung' rank='1 Dan'/>
+              <Officer image = {mizobe} name = 'Ken Mizobe'  rank='5 Dan'/>
             </div>
           </div>
 
           <div className='officer-info about-text'>
             <div className='officer-info-header about-text'>
-              <h3>Meet the Officers</h3>
-              <p className='officer-info-header-sub'>The Kenshi that make sure everything is running smoothly behind the scenes.</p>
+              <h3>Club Officers</h3>
             </div>
             <div className='officer-info-description about-text'>
             </div>
             <div className='officer-info-pictures'>
               <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank: 5 kyu'/>
               <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Rank: 0 kyu'/>
-              <Officer image = {amy} name = 'Amy Haley' role='Secretary' rank='Rank: 0 kyu'/>
+              <Officer image = {amy} name = 'Haley' role='Secretary' rank='Rank: 0 kyu'/>
               <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Rank: 9999 Dan'/>
-              <Officer image = {lim} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
+              <Officer image = {aljae} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
               <Officer image = {selina} name = 'Selina Hsieh' role='Public Events Coordinator' rank='Rank: infinite'/>
             </div>
             <p className='officer-info-post-text'>Feel free to say hi if you see them at practice!</p>
