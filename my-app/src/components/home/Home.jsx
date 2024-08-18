@@ -10,8 +10,8 @@ class HomePage extends Component {
           <Schedule/>
           <div className='mission-statement about-text'>
             <h3 className ='mission-statement-title'>What is Kendo?</h3>
-            <p className = 'mission-statement-sub'>Kendo is a Japanese fencing-like martial art which uses 
-              bamboo swords (shinai) and derives from the fighting style of samurai.
+            <p className = 'mission-statement-sub'>Originating from Japan, kendo is a martial art which simulates the duels of ancient samurai.
+              Practitioners use bamboo swords to duel each other. Through the practice of kendo, we can learn discipline and perserverence. 
               </p>
             <h3 className ='mission-statement-title'>Why us?</h3>
             <p className ='mission-statement-sub'>The Kendo Club at UCI 

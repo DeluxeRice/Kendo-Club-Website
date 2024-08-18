@@ -5,7 +5,7 @@
     justify-content:space-around;
     align-items:center;
     z-index:11;
-    background-color:  rgba(0, 127, 208, 1);
+    background-image: linear-gradient(rgb(3, 52, 110) 85%, rgb(177, 151, 127));
 }
 
 .kendo__navbar-links{   
