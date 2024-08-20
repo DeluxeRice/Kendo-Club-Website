@@ -4,7 +4,7 @@ import { Navbar, Footer, Officer, Title} from '../../containers';
 import gallinger from '../../assets/gallinger.jpg'
 import mcneil from '../../assets/mcneil.jpg'
 import fung from '../../assets/fung.jpg'
-import bravo from '../../assets/alice.jpg';
+import bravo from '../../assets/alice.jpg'
 import naethan from '../../assets/naethan.jpg'
 import jaime from '../../assets/jaime.jpg'
 import amy from '../../assets/amy.jpg'

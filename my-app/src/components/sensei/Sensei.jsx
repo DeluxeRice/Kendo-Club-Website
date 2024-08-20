@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Officer, Footer} from '../../containers';
 import './Sensei.css'
-import shikai from '../../assets/shikai.jpg'
-import zhu from '../../assets/zhu.jpg'
+import mizobe from '../../assets/mizobe.jpg'
 import gallinger from '../../assets/gallinger.jpg'
 import mcneil from '../../assets/mcneil.jpg'
 import fung from '../../assets/fung.jpg'
@@ -20,8 +19,7 @@ class SenseiPage extends Component {
             <div className='sensei-info-description'>
             </div>
             <div className='sensei-info-pictures'>
-              <Officer image = {shikai} name = 'Masashi Shikai' role='Head Sensei' rank='Rank'/>
-              <Officer image = {zhu} name = 'Tonie Zhu' role='Instructor' rank='Rank'/>
+              <Officer image = {mizobe} name = 'Ken Mizobe' role='Instructor' rank='Rank'/>
               <Officer image = {mcneil} name = 'Brandon Mcneil' role='Coach' rank='Rank'/>
               <Officer image = {gallinger} name = 'Nathan Gallinger' role='Coach' rank='Rank'/>
               <Officer image = {fung} name = 'Amos Fung' role='Coach' rank='Rank'/>
