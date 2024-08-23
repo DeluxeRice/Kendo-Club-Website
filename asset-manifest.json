@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5030c29.css",
-    "main.js": "/static/js/main.b48346ea.js",
+    "main.css": "/static/css/main.24b9e380.css",
+    "main.js": "/static/js/main.d34cb23d.js",
     "static/media/selina.jpg": "/static/media/selina.ae5dc82e81e9879f3846.jpg",
+    "static/media/aljae.jpg": "/static/media/aljae.446ec4238fb2c0ed08b9.jpg",
     "static/media/naethan.jpg": "/static/media/naethan.e21c0b14dd5d0761e772.jpg",
     "static/media/joint.jpg": "/static/media/joint.66c671ad64d32c070760.jpg",
+    "static/media/yuhihaishiai.jpg": "/static/media/yuhihaishiai.141fa7c2cb9f3560ced0.jpg",
     "static/media/practice.jpg": "/static/media/practice.423ec284b1e284218bea.jpg",
+    "static/media/mizobe.jpg": "/static/media/mizobe.b359d95b1bc6e351786f.jpg",
     "static/media/kendo_logo_transp.png": "/static/media/kendo_logo_transp.b7ec6a608b00c9a03b99.png",
     "static/media/alice.jpg": "/static/media/alice.ec58de596a071dc8c895.jpg",
     "static/media/oldgroup.jpg": "/static/media/oldgroup.f1e665565e6a201a8107.jpg",
-    "static/media/zhu.jpg": "/static/media/zhu.48eb3cde778c2b7766e9.jpg",
     "static/media/fung.jpg": "/static/media/fung.24b7ba0a98118516b27d.jpg",
     "static/media/mcneil.jpg": "/static/media/mcneil.d87431ebf29991135675.jpg",
     "static/media/amy.jpg": "/static/media/amy.bab10a40f67879b09ddd.jpg",
     "static/media/jaime.jpg": "/static/media/jaime.86a383536a90fdce3afc.jpg",
     "index.html": "/index.html",
-    "main.f5030c29.css.map": "/static/css/main.f5030c29.css.map",
-    "main.b48346ea.js.map": "/static/js/main.b48346ea.js.map"
+    "main.24b9e380.css.map": "/static/css/main.24b9e380.css.map",
+    "main.d34cb23d.js.map": "/static/js/main.d34cb23d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5030c29.css",
-    "static/js/main.b48346ea.js"
+    "static/css/main.24b9e380.css",
+    "static/js/main.d34cb23d.js"
   ]
 }
