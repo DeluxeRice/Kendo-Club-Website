@@ -1,7 +1,33 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.title-image{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    max-height: 36rem;
+}
+
+.title-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem;
+    display: flex;
+    text-shadow: 2px 2px 9px rgba(0,0,0,0.6);
+}
+
 .mission-statement{
     flex-direction: column;
     text-align:center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
     color: white;
@@ -18,6 +44,7 @@
 .mission-statement-title{
     padding-bottom: 1rem;
 }
+
 .wrapper{
     display: flex;
     flex-direction: column;
