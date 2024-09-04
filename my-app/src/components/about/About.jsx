@@ -45,7 +45,7 @@ class AboutPage extends Component {
             <div className='officer-info-pictures'>
               <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank: 5 kyu'/>
               <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Rank: 0 kyu'/>
-              <Officer image = {amy} name = 'Haley' role='Secretary' rank='Rank: 0 kyu'/>
+              <Officer image = {amy} name = 'Haley Amy' role='Secretary' rank='Rank: 0 kyu'/>
               <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Rank: 9999 Dan'/>
               <Officer image = {aljae} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
               <Officer image = {selina} name = 'Selina Hsieh' role='Public Events Coordinator' rank='Rank: infinite'/>
