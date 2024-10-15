@@ -15,7 +15,7 @@ class HomePage extends Component {
           <div className='mission-statement about-text'>
             <h3 className ='mission-statement-title'>What is Kendo?</h3>
               <p className = 'mission-statement-sub'>Originating from Japan, kendo is a martial art which simulates the duels of ancient samurai.
-              Practitioners use bamboo swords to duel each other. Through the practice of kendo, we can learn discipline and perserverence. 
+              Practitioners use bamboo swords to duel each other. Through the practice of kendo, we can learn discipline and perserverance. 
               </p>
             <h3 className ='mission-statement-title'>Why us?</h3>
               <p className ='mission-statement-sub'>The Kendo Club at UCI 

@@ -44,11 +44,11 @@ class AboutPage extends Component {
             </div>
             <div className='officer-info-pictures'>
               <Officer image = {bravo} name = 'Alessandra Bravo' role='President' rank='Rank: 5 kyu'/>
-              <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Rank: 0 kyu'/>
-              <Officer image = {amy} name = 'Haley Amy' role='Secretary' rank='Rank: 0 kyu'/>
-              <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Rank: 9999 Dan'/>
-              <Officer image = {aljae} name = 'Aljae Trinidad' role='Historian' rank='Rank'/>
-              <Officer image = {selina} name = 'Selina Hsieh' role='Public Events Coordinator' rank='Rank: infinite'/>
+              <Officer image = {jaime} name = 'Jaime Dubeibe' role='Vice President' rank='Unranked'/>
+              <Officer image = {amy} name = 'Haley Amy' role='Secretary' rank='Unranked'/>
+              <Officer image = {naethan} name = 'Naethan Fajarito' role='Treasurer' rank='Unranked'/>
+              <Officer image = {aljae} name = 'Aljae Trinidad' role='Historian' rank='Unranked'/>
+              <Officer image = {selina} name = 'Selina Hsieh' role='Public Events Coordinator' rank='Unranked'/>
             </div>
             <p className='officer-info-post-text'>Feel free to say hi if you see them at practice!</p>
           </div>
